@@ -43,7 +43,6 @@
     savingHUD.labelText = @"Saving...";
     self.savingHUD = savingHUD;
     
-    
     UIImageWriteToSavedPhotosAlbum([_vDeviceInfo renderImage],
                                    self,
                                    @selector(image:didFinishSavingWithError:contextInfo:), NULL);
@@ -55,9 +54,8 @@
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo;
 {
     [_savingHUD hide:YES];
+    self.savingHUD = nil;
     if (error) {
-        [self.savingHUD hide:YES];
-        
         UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Error"
                                                              message:@"Error saving image"
                                                             delegate:nil
