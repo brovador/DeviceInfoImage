@@ -12,7 +12,7 @@
 		1C12184A1AE26F9F00F8A7CD /* DIIDeviceInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1218491AE26F9F00F8A7CD /* DIIDeviceInfoView.m */; };
 		1C12184C1AE26FB100F8A7CD /* DIIDeviceInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C12184B1AE26FB100F8A7CD /* DIIDeviceInfoView.xib */; };
 		1C2747061AE2AF9000979561 /* UIView+UIImageExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */; };
-		1C2747081AE2B5A800979561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2747071AE2B5A800979561 /* Default-568h@2x.png */; };
+		1C27470A1AE2B84500979561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2747091AE2B84500979561 /* Default-568h@2x.png */; };
 		1C2DF26E1AE26BE7006FE162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF26D1AE26BE7006FE162 /* main.m */; };
 		1C2DF2711AE26BE7006FE162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF2701AE26BE7006FE162 /* AppDelegate.m */; };
 		1C2DF27C1AE26BE7006FE162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2DF27B1AE26BE7006FE162 /* Images.xcassets */; };
@@ -28,7 +28,7 @@
 		1C12184B1AE26FB100F8A7CD /* DIIDeviceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIIDeviceInfoView.xib; sourceTree = "<group>"; };
 		1C2747041AE2AF9000979561 /* UIView+UIImageExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImageExtensions.h"; sourceTree = "<group>"; };
 		1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImageExtensions.m"; sourceTree = "<group>"; };
-		1C2747071AE2B5A800979561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C2747091AE2B84500979561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		1C2DF2681AE26BE7006FE162 /* DeviceInfoImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfoImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2DF26C1AE26BE7006FE162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2DF26D1AE26BE7006FE162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,7 +55,6 @@
 		1C2DF25F1AE26BE6006FE162 = {
 			isa = PBXGroup;
 			children = (
-				1C2747071AE2B5A800979561 /* Default-568h@2x.png */,
 				1C2DF26A1AE26BE7006FE162 /* DeviceInfoImage */,
 				1C2DF2691AE26BE7006FE162 /* Products */,
 				370EB35F577EC854B641729C /* Pods */,
@@ -87,13 +86,13 @@
 				1C2747041AE2AF9000979561 /* UIView+UIImageExtensions.h */,
 				1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */,
 			);
-			name = DeviceInfoImage;
-			path = BRDeviceInfoImage;
+			path = DeviceInfoImage;
 			sourceTree = "<group>";
 		};
 		1C2DF26B1AE26BE7006FE162 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C2747091AE2B84500979561 /* Default-568h@2x.png */,
 				1C2DF26C1AE26BE7006FE162 /* Info.plist */,
 				1C2DF26D1AE26BE7006FE162 /* main.m */,
 			);
@@ -177,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C1218441AE26D0900F8A7CD /* DIIRootViewController.xib in Resources */,
-				1C2747081AE2B5A800979561 /* Default-568h@2x.png in Resources */,
+				1C27470A1AE2B84500979561 /* Default-568h@2x.png in Resources */,
 				1C2DF27C1AE26BE7006FE162 /* Images.xcassets in Resources */,
 				1C12184C1AE26FB100F8A7CD /* DIIDeviceInfoView.xib in Resources */,
 			);
@@ -321,7 +320,7 @@
 			baseConfigurationReference = A9DD31E0ADDDB681B6B90152 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BRDeviceInfoImage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceInfoImage/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = DeviceInfoImage;
@@ -334,7 +333,7 @@
 			baseConfigurationReference = 5F90306486D6F96EF5707983 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BRDeviceInfoImage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceInfoImage/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = DeviceInfoImage;
