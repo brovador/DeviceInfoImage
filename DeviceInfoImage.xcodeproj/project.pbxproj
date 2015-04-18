@@ -7,42 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1218441AE26D0900F8A7CD /* DIIRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1218431AE26D0900F8A7CD /* DIIRootViewController.xib */; };
+		1C1218471AE26D2100F8A7CD /* DIIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1218461AE26D2100F8A7CD /* DIIRootViewController.m */; };
+		1C12184A1AE26F9F00F8A7CD /* DIIDeviceInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1218491AE26F9F00F8A7CD /* DIIDeviceInfoView.m */; };
+		1C12184C1AE26FB100F8A7CD /* DIIDeviceInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C12184B1AE26FB100F8A7CD /* DIIDeviceInfoView.xib */; };
+		1C2747061AE2AF9000979561 /* UIView+UIImageExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */; };
+		1C2747081AE2B5A800979561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2747071AE2B5A800979561 /* Default-568h@2x.png */; };
 		1C2DF26E1AE26BE7006FE162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF26D1AE26BE7006FE162 /* main.m */; };
 		1C2DF2711AE26BE7006FE162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF2701AE26BE7006FE162 /* AppDelegate.m */; };
-		1C2DF2741AE26BE7006FE162 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF2731AE26BE7006FE162 /* MasterViewController.m */; };
-		1C2DF2771AE26BE7006FE162 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF2761AE26BE7006FE162 /* DetailViewController.m */; };
-		1C2DF27A1AE26BE7006FE162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2DF2781AE26BE7006FE162 /* Main.storyboard */; };
 		1C2DF27C1AE26BE7006FE162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2DF27B1AE26BE7006FE162 /* Images.xcassets */; };
-		1C2DF27F1AE26BE7006FE162 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2DF27D1AE26BE7006FE162 /* LaunchScreen.xib */; };
-		1C2DF28B1AE26BE7006FE162 /* BRDeviceInfoImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DF28A1AE26BE7006FE162 /* BRDeviceInfoImageTests.m */; };
+		8ABCEEA7574C34AC8726FAC4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A9414B2BC8569DE42E2159 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1C2DF2851AE26BE7006FE162 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1C2DF2601AE26BE6006FE162 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C2DF2671AE26BE6006FE162;
-			remoteInfo = BRDeviceInfoImage;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1C2DF2681AE26BE7006FE162 /* BRDeviceInfoImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRDeviceInfoImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1218431AE26D0900F8A7CD /* DIIRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIIRootViewController.xib; sourceTree = "<group>"; };
+		1C1218451AE26D2100F8A7CD /* DIIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIIRootViewController.h; sourceTree = "<group>"; };
+		1C1218461AE26D2100F8A7CD /* DIIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIIRootViewController.m; sourceTree = "<group>"; };
+		1C1218481AE26F9F00F8A7CD /* DIIDeviceInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIIDeviceInfoView.h; sourceTree = "<group>"; };
+		1C1218491AE26F9F00F8A7CD /* DIIDeviceInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIIDeviceInfoView.m; sourceTree = "<group>"; };
+		1C12184B1AE26FB100F8A7CD /* DIIDeviceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIIDeviceInfoView.xib; sourceTree = "<group>"; };
+		1C2747041AE2AF9000979561 /* UIView+UIImageExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImageExtensions.h"; sourceTree = "<group>"; };
+		1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImageExtensions.m"; sourceTree = "<group>"; };
+		1C2747071AE2B5A800979561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C2DF2681AE26BE7006FE162 /* DeviceInfoImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfoImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2DF26C1AE26BE7006FE162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2DF26D1AE26BE7006FE162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C2DF26F1AE26BE7006FE162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C2DF2701AE26BE7006FE162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C2DF2721AE26BE7006FE162 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		1C2DF2731AE26BE7006FE162 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1C2DF2751AE26BE7006FE162 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1C2DF2761AE26BE7006FE162 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1C2DF2791AE26BE7006FE162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C2DF27B1AE26BE7006FE162 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1C2DF27E1AE26BE7006FE162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1C2DF2841AE26BE7006FE162 /* BRDeviceInfoImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRDeviceInfoImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C2DF2891AE26BE7006FE162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C2DF28A1AE26BE7006FE162 /* BRDeviceInfoImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRDeviceInfoImageTests.m; sourceTree = "<group>"; };
+		34A9414B2BC8569DE42E2159 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F90306486D6F96EF5707983 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A9DD31E0ADDDB681B6B90152 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,13 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C2DF2811AE26BE7006FE162 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8ABCEEA7574C34AC8726FAC4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,35 +55,39 @@
 		1C2DF25F1AE26BE6006FE162 = {
 			isa = PBXGroup;
 			children = (
-				1C2DF26A1AE26BE7006FE162 /* BRDeviceInfoImage */,
-				1C2DF2871AE26BE7006FE162 /* BRDeviceInfoImageTests */,
+				1C2747071AE2B5A800979561 /* Default-568h@2x.png */,
+				1C2DF26A1AE26BE7006FE162 /* DeviceInfoImage */,
 				1C2DF2691AE26BE7006FE162 /* Products */,
+				370EB35F577EC854B641729C /* Pods */,
+				604BFA670358BC4A48B1F3AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1C2DF2691AE26BE7006FE162 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C2DF2681AE26BE7006FE162 /* BRDeviceInfoImage.app */,
-				1C2DF2841AE26BE7006FE162 /* BRDeviceInfoImageTests.xctest */,
+				1C2DF2681AE26BE7006FE162 /* DeviceInfoImage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C2DF26A1AE26BE7006FE162 /* BRDeviceInfoImage */ = {
+		1C2DF26A1AE26BE7006FE162 /* DeviceInfoImage */ = {
 			isa = PBXGroup;
 			children = (
 				1C2DF26F1AE26BE7006FE162 /* AppDelegate.h */,
 				1C2DF2701AE26BE7006FE162 /* AppDelegate.m */,
-				1C2DF2721AE26BE7006FE162 /* MasterViewController.h */,
-				1C2DF2731AE26BE7006FE162 /* MasterViewController.m */,
-				1C2DF2751AE26BE7006FE162 /* DetailViewController.h */,
-				1C2DF2761AE26BE7006FE162 /* DetailViewController.m */,
-				1C2DF2781AE26BE7006FE162 /* Main.storyboard */,
 				1C2DF27B1AE26BE7006FE162 /* Images.xcassets */,
-				1C2DF27D1AE26BE7006FE162 /* LaunchScreen.xib */,
 				1C2DF26B1AE26BE7006FE162 /* Supporting Files */,
+				1C1218451AE26D2100F8A7CD /* DIIRootViewController.h */,
+				1C1218461AE26D2100F8A7CD /* DIIRootViewController.m */,
+				1C1218431AE26D0900F8A7CD /* DIIRootViewController.xib */,
+				1C1218481AE26F9F00F8A7CD /* DIIDeviceInfoView.h */,
+				1C1218491AE26F9F00F8A7CD /* DIIDeviceInfoView.m */,
+				1C12184B1AE26FB100F8A7CD /* DIIDeviceInfoView.xib */,
+				1C2747041AE2AF9000979561 /* UIView+UIImageExtensions.h */,
+				1C2747051AE2AF9000979561 /* UIView+UIImageExtensions.m */,
 			);
+			name = DeviceInfoImage;
 			path = BRDeviceInfoImage;
 			sourceTree = "<group>";
 		};
@@ -107,60 +100,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1C2DF2871AE26BE7006FE162 /* BRDeviceInfoImageTests */ = {
+		370EB35F577EC854B641729C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C2DF28A1AE26BE7006FE162 /* BRDeviceInfoImageTests.m */,
-				1C2DF2881AE26BE7006FE162 /* Supporting Files */,
+				A9DD31E0ADDDB681B6B90152 /* Pods.debug.xcconfig */,
+				5F90306486D6F96EF5707983 /* Pods.release.xcconfig */,
 			);
-			path = BRDeviceInfoImageTests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		1C2DF2881AE26BE7006FE162 /* Supporting Files */ = {
+		604BFA670358BC4A48B1F3AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C2DF2891AE26BE7006FE162 /* Info.plist */,
+				34A9414B2BC8569DE42E2159 /* libPods.a */,
 			);
-			name = "Supporting Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C2DF2671AE26BE6006FE162 /* BRDeviceInfoImage */ = {
+		1C2DF2671AE26BE6006FE162 /* DeviceInfoImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C2DF28E1AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "BRDeviceInfoImage" */;
+			buildConfigurationList = 1C2DF28E1AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "DeviceInfoImage" */;
 			buildPhases = (
+				C8C10166CABC24898AB31F21 /* Check Pods Manifest.lock */,
 				1C2DF2641AE26BE6006FE162 /* Sources */,
 				1C2DF2651AE26BE6006FE162 /* Frameworks */,
 				1C2DF2661AE26BE6006FE162 /* Resources */,
+				4CF8001C2B79DB6991BE881B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BRDeviceInfoImage;
+			name = DeviceInfoImage;
 			productName = BRDeviceInfoImage;
-			productReference = 1C2DF2681AE26BE7006FE162 /* BRDeviceInfoImage.app */;
+			productReference = 1C2DF2681AE26BE7006FE162 /* DeviceInfoImage.app */;
 			productType = "com.apple.product-type.application";
-		};
-		1C2DF2831AE26BE7006FE162 /* BRDeviceInfoImageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C2DF2911AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "BRDeviceInfoImageTests" */;
-			buildPhases = (
-				1C2DF2801AE26BE7006FE162 /* Sources */,
-				1C2DF2811AE26BE7006FE162 /* Frameworks */,
-				1C2DF2821AE26BE7006FE162 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C2DF2861AE26BE7006FE162 /* PBXTargetDependency */,
-			);
-			name = BRDeviceInfoImageTests;
-			productName = BRDeviceInfoImageTests;
-			productReference = 1C2DF2841AE26BE7006FE162 /* BRDeviceInfoImageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -174,13 +151,9 @@
 					1C2DF2671AE26BE6006FE162 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					1C2DF2831AE26BE7006FE162 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 1C2DF2671AE26BE6006FE162;
-					};
 				};
 			};
-			buildConfigurationList = 1C2DF2631AE26BE6006FE162 /* Build configuration list for PBXProject "BRDeviceInfoImage" */;
+			buildConfigurationList = 1C2DF2631AE26BE6006FE162 /* Build configuration list for PBXProject "DeviceInfoImage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,8 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C2DF2671AE26BE6006FE162 /* BRDeviceInfoImage */,
-				1C2DF2831AE26BE7006FE162 /* BRDeviceInfoImageTests */,
+				1C2DF2671AE26BE6006FE162 /* DeviceInfoImage */,
 			);
 		};
 /* End PBXProject section */
@@ -204,20 +176,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2DF27A1AE26BE7006FE162 /* Main.storyboard in Resources */,
-				1C2DF27F1AE26BE7006FE162 /* LaunchScreen.xib in Resources */,
+				1C1218441AE26D0900F8A7CD /* DIIRootViewController.xib in Resources */,
+				1C2747081AE2B5A800979561 /* Default-568h@2x.png in Resources */,
 				1C2DF27C1AE26BE7006FE162 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C2DF2821AE26BE7006FE162 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1C12184C1AE26FB100F8A7CD /* DIIDeviceInfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CF8001C2B79DB6991BE881B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C10166CABC24898AB31F21 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C2DF2641AE26BE6006FE162 /* Sources */ = {
@@ -225,48 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2DF2711AE26BE7006FE162 /* AppDelegate.m in Sources */,
-				1C2DF2741AE26BE7006FE162 /* MasterViewController.m in Sources */,
 				1C2DF26E1AE26BE7006FE162 /* main.m in Sources */,
-				1C2DF2771AE26BE7006FE162 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C2DF2801AE26BE7006FE162 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C2DF28B1AE26BE7006FE162 /* BRDeviceInfoImageTests.m in Sources */,
+				1C2747061AE2AF9000979561 /* UIView+UIImageExtensions.m in Sources */,
+				1C1218471AE26D2100F8A7CD /* DIIRootViewController.m in Sources */,
+				1C12184A1AE26F9F00F8A7CD /* DIIDeviceInfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1C2DF2861AE26BE7006FE162 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1C2DF2671AE26BE6006FE162 /* BRDeviceInfoImage */;
-			targetProxy = 1C2DF2851AE26BE7006FE162 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1C2DF2781AE26BE7006FE162 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C2DF2791AE26BE7006FE162 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C2DF27D1AE26BE7006FE162 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C2DF27E1AE26BE7006FE162 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C2DF28C1AE26BE7006FE162 /* Debug */ = {
@@ -353,62 +318,34 @@
 		};
 		1C2DF28F1AE26BE7006FE162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DD31E0ADDDB681B6B90152 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRDeviceInfoImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DeviceInfoImage;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		1C2DF2901AE26BE7006FE162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F90306486D6F96EF5707983 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRDeviceInfoImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		1C2DF2921AE26BE7006FE162 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BRDeviceInfoImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRDeviceInfoImage.app/BRDeviceInfoImage";
-			};
-			name = Debug;
-		};
-		1C2DF2931AE26BE7006FE162 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BRDeviceInfoImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRDeviceInfoImage.app/BRDeviceInfoImage";
+				PRODUCT_NAME = DeviceInfoImage;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C2DF2631AE26BE6006FE162 /* Build configuration list for PBXProject "BRDeviceInfoImage" */ = {
+		1C2DF2631AE26BE6006FE162 /* Build configuration list for PBXProject "DeviceInfoImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C2DF28C1AE26BE7006FE162 /* Debug */,
@@ -417,21 +354,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C2DF28E1AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "BRDeviceInfoImage" */ = {
+		1C2DF28E1AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "DeviceInfoImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C2DF28F1AE26BE7006FE162 /* Debug */,
 				1C2DF2901AE26BE7006FE162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		1C2DF2911AE26BE7006FE162 /* Build configuration list for PBXNativeTarget "BRDeviceInfoImageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C2DF2921AE26BE7006FE162 /* Debug */,
-				1C2DF2931AE26BE7006FE162 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

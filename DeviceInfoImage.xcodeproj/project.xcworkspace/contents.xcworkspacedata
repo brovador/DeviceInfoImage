@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BRDeviceInfoImage.xcodeproj">
+      location = "self:DeviceInfoImage.xcodeproj">
    </FileRef>
 </Workspace>
