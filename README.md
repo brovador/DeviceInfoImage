@@ -12,3 +12,4 @@ Useful for recognizing different testing devices.
 
 Samples:
 
+![generated sample](http://brovador.github.io/DeviceInfoImage/sample.jpg)
